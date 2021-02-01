@@ -14,7 +14,7 @@ def home(request):
 
 
 def password(request):
-    character = list('qwertyuioplkjhgfdsazxcvbnm')
+    character = list('qwertyuioplkjhgfdsazxdffscvbnm')
     thepassword = ""
     length = int(request.GET.get('length'))
     if request.GET.get('uppercase'):
